@@ -16,8 +16,11 @@ public class FinanceManager {
  scanner.nextLine();
  switch (choice) {
  case 1: addTransaction("Income");
+         break;
  case 2: addTransaction("Expense");
+         break;
  case 3: viewSummary();
+         break;
  case 4: {
  System.out.println("Goodbye!");
  return;
